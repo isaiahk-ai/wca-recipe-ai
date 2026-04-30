@@ -1,3 +1,4 @@
+ HEAD
 # Recipe Generator with Claude AI 🍳
 
 A Python application that generates detailed, authentic recipes using Anthropic's Claude AI.
@@ -21,3 +22,6 @@ A Python application that generates detailed, authentic recipes using Anthropic'
 - Generate multiple recipes in one session
 
 ## Project Structure
+=======
+# wca-recipe-ai
+ 3d36e71c8773944f61c860e5f83913dfc820e6f8
