@@ -255,9 +255,12 @@ def main():
     print("\nPowered by Anthropic's Claude AI")
     print("="*60 + "\n")
     
+    recipe_count = 0  # Track how many recipes generated this session
+    
     # Main loop - allows generating multiple recipes
     while True:
         # Get user inputs
+    
         print("-"*60)
         
         # Get dish name
@@ -317,6 +320,8 @@ def main():
         else:
             # Success - display the recipe
             display_recipe(recipe)
+            recipe_count += 1
+            print(f"\n📊 Session total: {recipe_count} recipe{'s' if recipe_count > 1 else ''} generated")
         
         # Ask if user wants another recipe
         print("\n" + "-"*60)
@@ -325,8 +330,8 @@ def main():
         if another not in ['yes', 'y', 'yeah', 'yep']:
             # User wants to quit
             print("\n" + "="*60)
-            print("👋 Thanks for using Recipe Generator!")
-            print("   Happy cooking and enjoy your meal! 🍽️")
+            print(f"👋 Thanks for using Recipe Generator!")
+            print(f"   You made {recipe_count} recipe{'s' if recipe_count != 1 else ''} today! 🍽️")
             print("="*60 + "\n")
             break
         
