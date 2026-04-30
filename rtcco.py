@@ -16,4 +16,10 @@ Constraints:
  "ingredients":["ingedients with amount"],
  "steps":["detailed step instruction"]
 }
-
+output:
+structured JSON with
+-dish name
+- cooking time
+- 6-10 ingredients with specific amounts
+- 6-10 detailed step-by-step instructions
+- Authentic, traditional, and easy to follow
