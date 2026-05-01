@@ -1,4 +1,4 @@
-# Recipe Generator with Claude AI
+# WCA AI Tool - Recipe Generator with Claude AI
 # Developer: Isaiah
 # Date: April 29, 2026
 # Description: Generates recipes using Anthropic's Claude AI
