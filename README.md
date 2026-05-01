@@ -1,5 +1,5 @@
  HEAD
-# Recipe Generator with Claude AI 🍳
+# WCA AI Tool - Recipe Generator with Claude AI 🍳
 
 A Python application that generates detailed, authentic recipes using Anthropic's Claude AI.
 
